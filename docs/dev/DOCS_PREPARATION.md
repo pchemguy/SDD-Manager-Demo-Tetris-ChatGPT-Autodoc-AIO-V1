@@ -22,11 +22,17 @@ Default manual provenance setup: seed 4066c4ebb9763db503faf9c928e6edea126e8799 a
 
 | Task | Evidence / decision |
 | --- | --- |
-| DOCS-001 | Four root files preserved; provenance integrated and published; task/control/handoff initialized atomically in this checkpoint. Initialization push and issue #1 closure require readback. |
-| DOCS-002 | PROJECT proposal pending; no human acceptance. |
+| DOCS-001 | Completed in 4bcd3d228e84f295d86c72e29bb9c685cab49bc0, pushed with exact remote readback and confirmed cleanup. Issue #1 closed as completed and read back. Four root files preserved; provenance integrated and published; task/control/handoff initialized atomically. |
+| DOCS-002 | PROJECT proposal SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7; no human acceptance. Scope coverage, document boundary, requirement/proposal separation and local README links reviewed. No formal PROJECT QC report is required. DOCS-002 and issue #2 remain incomplete. |
 | DOCS-003–008 | Not authored; eligible only after accepted PROJECT and preceding stages/QC. |
 | DOCS-009 | Outside current autodoc boundary; remains incomplete and issue open. |
 
+## Proposed product decisions
+
+PROJECT's proposed-choice table is the current reviewable decision set, including TypeScript/Canvas/static delivery; ghost straddling rule; timer reset behavior; disabled Hold while penetrating; penetrator landing/activation safety; live setting timing; invalid/duplicate configuration handling; defaults, keys and browser coverage. These are agent recommendations awaiting human acceptance, not claims that the initiating request supplied them. Detailed scoring, speed, spawn/top-out and input-repeat contracts may be specified within the accepted scope.
+
+Proposed release policy: baseline 0.1.0, minor increases for capability phases, patches for fixes and 1.0.0 at verified full target. No documentation release or implementation range is selected.
+
 ## Pending transitions
 
-Publish/read back the initialization checkpoint, close/read back DOCS-001 issue #1, then publish PROJECT proposal for human approval. The documentation milestone remains open. Implementation and releases have not started.
+Publish/read back this PROJECT proposal and obtain human PROJECT approval, including its proposed gameplay choices. Hold ARCHITECTURE and dependent work. Autodoc then covers later document checkpoints through DOCS-008, subject to required QC and publication. DOCS-009, package QC/integration and implementation remain outside the present stop. The documentation milestone and issues #2–#9 remain open.
