@@ -2,7 +2,7 @@
 
 ## Current gate
 
-State: **Ready for layout authoring; TASKS held until combined layout review**. Owner: sdd-plan. Review date: 2026-10-24. Strategy is assessed against current Ready SPEC/design evidence. No layout exists yet, so placement readiness is not claimed.
+State: **Ready for TASKS derivation (combined PLAN/layout review)**. Owner: sdd-plan. Review date: 2026-10-24. Strategy is assessed against current Ready SPEC/design evidence. Current combined placement readiness is established in Revision 1; original strategy-only evidence is retained below.
 
 ## Exact reviewed and governing states
 
@@ -34,3 +34,13 @@ Coverage: PLAN's grouped table routes every R01–R18 contract to delivery miles
 Reviewed early integration/demonstrations, human-directed amendment opportunities, failure paths, browser facility risk, static distribution and per-phase release gates. Each milestone has whole-capability review/report/HANDOFF obligations and every phase retains a one-task special phase review milestone. Task counts/conditional standalone review allocation are deliberately deferred to TASKS; no implementation tasks were invented in PLAN.
 
 Mechanical checks: five unique ordered phase headings and seventeen milestone headings (twelve delivery, five review); no preparation-mode/cursor narrative. Manual checks: full contract coverage, predecessor order, scope/cohesion, earliest useful baseline and complete version coverage. Findings: no confirmed strategy defects; no correction cycle needed. Remaining gate: prepare layout and append combined review. No implementation/browser/build/release execution is claimed.
+
+## Revision 1 — Combined PLAN/layout review
+
+Owner: sdd-plan; date: 2026-10-24. Original strategy has no confirmed finding; this is the planned placement recheck, not a manufactured correction. PLAN and all governing design/SPEC identities above remain unchanged. Reviewed layout.md SHA-256: `5296f20df57ed17b711cd7d1003b834588fd7648579899c47ce7767cbd6077e3`.
+
+Assessed every C-* owner against source paths, matching unit/browser checks and controller/composition direction. All eleven components have a home and a verification seam; clocks and composition have explicit auxiliary owners. Tests, fixture/harness separation, static bundle/CI/package metadata, user instructions, release notes and implementation report paths support every phase's integration and exit evidence. The layout distinguishes intended files/commands from implemented or validated ones and excludes credentials/browser binaries/test state from runtime artifacts.
+
+Rechecked PLAN's twelve delivery/five phase review milestone allocations against report paths. Each planned capability can be derived into localized source/test/doc tasks without inventing a directory or moving behavior into a report. Sources exist only as design targets, which is appropriate before implementation. No code/browser execution or package validation was performed.
+
+Findings: none. Combined gate Ready for TASKS; no unresolved physical ownership or upstream contract/strategy change. Original strategy-only placement limitation is resolved by this review. Local links in PLAN and layout resolve; filenames, heading separation and preparation-content boundaries checked.
