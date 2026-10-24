@@ -27,6 +27,7 @@ Default manual provenance setup: seed 4066c4ebb9763db503faf9c928e6edea126e8799 a
 | DOCS-003 | ARCHITECTURE.md SHA-256 97f1b1df98b1e2015bd0b78924ec3199483502f405d7ca37eb01ec500fe7eabf. Autodoc preapproval applies. Reviewed accepted PROJECT scope, single state ownership, acyclic dependencies, shared ghost/drop landing, configuration failure isolation and clock lifecycle. No unresolved architectural decisions; DECOMPOSITION forward link is scheduled for the next authorized stage. |
 | DOCS-004 | DECOMPOSITION.md SHA-256 6c8ed74b1e0bd1cbddf1d71c5dc6479d2f3cc29daca9127f97b5f7c8f0c16543. Autodoc preapproval applies. Reviewed all architecture blocks against eleven logical owners, immutable snapshots, input/time ordering, atomic lock transitions, captured settings, failure ownership and deterministic test seams. Architecture and decomposition links resolve; no cycles or unresolved ownership found. |
 | DOCS-005 | SPEC.md SHA-256 e72151dbc4c069f29cd0b93cc0b30b6ea8e2c7e83f91f3878522eb2be3c769fd. Autodoc preapproval applies. SPEC-REVIEW-REPORT.md records current SHA-256 identities and Ready conformance against accepted PROJECT, ARCHITECTURE and DECOMPOSITION; covers both spec children, R01-R18, lifecycle/failure/edge acceptance, ordered kicks, penetrator landing and per-key precedence. No unresolved findings; no implementation tests claimed. |
+| DOCS-006 | PLAN.md SHA-256 91dd7547f597f7ab22f090c96e7bf53055f75efa7b1bcf5ec3bf3f98e20c9be8. Autodoc preapproval applies. PLAN-REVIEW-REPORT.md records exact inputs and Ready strategy review: five bounded phases, twelve delivery milestones plus five special phase reviews, full R01-R18 coverage, explicit small-group rationale, minimal playable baseline and phase-scoped release gates. TASKS remains held pending layout combined QC. |
 | DOCS-009 | Outside current autodoc boundary; remains incomplete and issue open. |
 
 ## Accepted product decisions
@@ -37,4 +38,4 @@ Accepted release policy: baseline 0.1.0, minor increases for capability phases, 
 
 ## Pending transitions
 
-DOCS-005 completion checkpoint requires push/readback, then issue #5 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-006 under autodoc preapproval; no implementation or release execution.
+DOCS-006 completion checkpoint requires push/readback, then issue #6 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-007 under autodoc preapproval; no implementation or release execution.
