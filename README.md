@@ -2,7 +2,7 @@
 
 A browser Tetris project with a classic baseline, modern gameplay, penetrator bonuses and persistent configuration. The project is in design preparation; no playable application is implemented yet.
 
-See the [project brief](docs/dev/PROJECT.md), [preparation status](docs/dev/DOCS_PREPARATION.md) and [handoff](docs/dev/HANDOFF.md).
+See the [project brief](docs/dev/PROJECT.md), [delivery plan](docs/dev/PLAN.md), [implementation tasks](docs/dev/TASKS.md), [preparation status](docs/dev/DOCS_PREPARATION.md) and [handoff](docs/dev/HANDOFF.md).
 
 ## Development and disclosure
 

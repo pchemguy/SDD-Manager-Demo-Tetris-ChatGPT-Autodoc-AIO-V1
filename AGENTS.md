@@ -43,3 +43,9 @@ Follow `sdd-manage`'s preparation and phase-activation workflows for required tr
 ## Project guidance
 
 Maintain project-specific navigation and validated setup/check commands here as they become established. Do not invent commands, paths, requirements or completion claims.
+
+## Current project navigation
+
+The target is a desktop browser Tetris game. Governing inputs are [PROJECT](docs/dev/PROJECT.md), [ARCHITECTURE](docs/dev/ARCHITECTURE.md), [DECOMPOSITION](docs/dev/DECOMPOSITION.md), [SPEC](docs/dev/SPEC.md), [PLAN](docs/dev/PLAN.md) and [layout](docs/dev/layout.md). [TASKS](docs/dev/TASKS.md) is the sole implementation task owner; focused QC reports are adjacent to their roots. Preparation control is in [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md); recover the actual continuation from HANDOFF, that record and Git.
+
+Source/test paths and npm commands in layout are intended allocations. No product source, package scripts, browser setup or application checks are implemented/validated yet. Follow applicable nested instructions for selected paths. When implementation establishes real commands and locations, update this maintained navigation with their actual evidence. Preserve the existing Windows and browser policies.

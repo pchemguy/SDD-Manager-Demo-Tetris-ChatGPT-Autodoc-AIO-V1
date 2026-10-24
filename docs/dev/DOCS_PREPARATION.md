@@ -5,14 +5,14 @@
 - Mode: autodoc/onepass, explicitly requested on 2026-10-24.
 - Scope: complete target from the initiating request, defined by the accepted PROJECT brief. No cumulative scope passes.
 - Approval basis: The user approved PROJECT proposal 30fa9dc6c3ad54390295d306fc41ba9df6c14ec8 and its proposed choices on 2026-10-24 with “Approve”. ARCHITECTURE through TASKS are preapproved by the requested autodoc mode.
-- Stop: after DOCS-008 publication and issue closure; before DOCS-009, package QC, documentation integration or implementation. PROJECT approval is resolved; proceed through DOCS-008.
+- Stop: after DOCS-008 publication and issue closure; before DOCS-009, package QC, documentation integration or implementation. PROJECT approval is resolved; DOCS-008 is the selected final boundary.
 - Tracking: enabled for preparation and implementation by existing root AGENTS policy. Standard reporting; Minimal and Explicit available.
 
 ## Initialization evidence
 
-All four root files existed initially and remain byte-identical to initial commit a23539ec85e8d4c8c6c1e7d841c754bcb5ddd598: AGENTS.md, AI_DISCLOSURE.md, SDD-MANAGER.md and SKILL_DISCOVERY_PROTOCOL.md. No root guidance copies were needed. Full initial presence permits continuation without an initialization pause. BROWSER_DEV_POLICY.md and WINDOWS_SHELL_POLICY.md were read and preserved.
+At DOCS-001, all four root files existed initially and were verified byte-identical to initial commit a23539ec85e8d4c8c6c1e7d841c754bcb5ddd598: AGENTS.md, AI_DISCLOSURE.md, SDD-MANAGER.md and SKILL_DISCOVERY_PROTOCOL.md. No root guidance copies were needed. Full initial presence permits continuation without an initialization pause. BROWSER_DEV_POLICY.md and WINDOWS_SHELL_POLICY.md were read and preserved.
 
-Repository orientation found a clean main branch at a23539e, no development documents, no unfinished workflow branches and no repository-bundled skills/plugins. Execution host is Linux/Bash with Git, Node and Python; Windows-only shell rules do not apply. Installed SDD Manager 0.15.2 supplies unchanged assets and focused procedures.
+Initial repository orientation found a clean main branch at a23539e, no development documents, no unfinished workflow branches and no repository-bundled skills/plugins. Execution host is Linux/Bash with Git, Node and Python; Windows-only shell rules do not apply. Installed SDD Manager 0.15.2 supplies unchanged assets and focused procedures.
 
 Tracking milestone sdd-docs-main and nine issues DOCS-001–009 (#1–#9) were created from package definitions and read back with exact content and associations before target branch/file writes. No phase label was created. The supplied credential was transferred through protected process input; ignored repository storage followed the projection gate.
 
@@ -29,6 +29,7 @@ Default manual provenance setup: seed 4066c4ebb9763db503faf9c928e6edea126e8799 a
 | DOCS-005 | SPEC.md SHA-256 e72151dbc4c069f29cd0b93cc0b30b6ea8e2c7e83f91f3878522eb2be3c769fd. Autodoc preapproval applies. SPEC-REVIEW-REPORT.md records current SHA-256 identities and Ready conformance against accepted PROJECT, ARCHITECTURE and DECOMPOSITION; covers both spec children, R01-R18, lifecycle/failure/edge acceptance, ordered kicks, penetrator landing and per-key precedence. No unresolved findings; no implementation tests claimed. |
 | DOCS-006 | PLAN.md SHA-256 91dd7547f597f7ab22f090c96e7bf53055f75efa7b1bcf5ec3bf3f98e20c9be8. Autodoc preapproval applies. PLAN-REVIEW-REPORT.md records exact inputs and Ready strategy review: five bounded phases, twelve delivery milestones plus five special phase reviews, full R01-R18 coverage, explicit small-group rationale, minimal playable baseline and phase-scoped release gates. TASKS remains held pending layout combined QC. |
 | DOCS-007 | layout.md SHA-256 5296f20df57ed17b711cd7d1003b834588fd7648579899c47ce7767cbd6077e3. Autodoc preapproval applies. PLAN-REVIEW-REPORT.md Revision 1 records layout hash, unchanged strategy inputs and combined Ready gate for TASKS. Reviewed eleven component homes, dependency direction, fixture/production separation, browser isolation, intended versus validated commands, report paths and source/test/documentation coverage; no findings. |
+| DOCS-008 | TASKS.md SHA-256 af7b31e808d6ac10c56ac9a4acdb14b841978017c0db0222d2d4e4d56325f5e4. Autodoc preapproval applies. TASKS-REVIEW-REPORT.md records exact input hashes, Ready breakdown, 43 unique tasks across five phases, 37 delivery plus six review units, canonical-parser/DAG/parent/count checks and complete R01-R18 route review. Eleven folded milestone boundaries and five single-task phase reviews verified. Focused source identities, links/style, preserved policies and no tracked secrets checked. HANDOFF records DOCS-008 stop; DOCS-009 and package integration remain unselected. |
 | DOCS-009 | Outside current autodoc boundary; remains incomplete and issue open. |
 
 ## Accepted product decisions
@@ -37,6 +38,12 @@ PROJECT's proposed-choice table is the current reviewable decision set, includin
 
 Accepted release policy: baseline 0.1.0, minor increases for capability phases, patches for fixes and 1.0.0 at verified full target. No documentation release or implementation range is selected.
 
+## DOCS-008 stop evidence
+
+The accepted PROJECT and autodoc preapproval govern all document stages. DOCS-002–007 completion commits and their issue closures were individually published/read back and verified before dependent work. Focused SPEC QC and combined PLAN/layout QC are Ready with exact source identities. TASKS review covers 43 unique tasks, 37 delivery plus six review tasks, five phases, twelve delivery milestones and five special phase reviews; current report carries exact reviewed/upstream hashes and semantic/count checks.
+
+Root AGENTS original instructions are preserved; this checkpoint appends current document navigation and truthful unimplemented-command status. README links current PLAN/TASKS. This is later orientation maintenance, separate from DOCS-001's unchanged-byte initialization evidence. HANDOFF is refreshed for the selected autodoc stop in the same completion commit. No implementation phase tracking was activated, no package QC was run, and no product/release work was started.
+
 ## Pending transitions
 
-DOCS-007 completion checkpoint requires push/readback, then issue #7 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-008 under autodoc preapproval; no implementation or release execution.
+DOCS-008 completion checkpoint requires push/readback, then issue #8 evidence/closure/readback. Reconcile actual Git and provider state before replay. Stop after DOCS-008. DOCS-009, package QC, integration and implementation remain unselected; documentation milestone and issue #9 remain open.
