@@ -3,9 +3,9 @@
 ## Current control
 
 - Mode: autodoc/onepass, explicitly requested on 2026-10-24.
-- Scope: complete target from the initiating request, summarized in the forthcoming PROJECT proposal. No cumulative scope passes.
-- Approval basis: PROJECT requires human approval; ARCHITECTURE through TASKS are preapproved by autodoc selection. Product proposals are not accepted merely by document preapproval.
-- Stop: after DOCS-008 publication and issue closure; before DOCS-009, package QC, documentation integration or implementation. Immediate next checkpoint is PROJECT approval.
+- Scope: complete target from the initiating request, defined by the accepted PROJECT brief. No cumulative scope passes.
+- Approval basis: The user approved PROJECT proposal 30fa9dc6c3ad54390295d306fc41ba9df6c14ec8 and its proposed choices on 2026-10-24 with “Approve”. ARCHITECTURE through TASKS are preapproved by the requested autodoc mode.
+- Stop: after DOCS-008 publication and issue closure; before DOCS-009, package QC, documentation integration or implementation. PROJECT approval is resolved; proceed through DOCS-008.
 - Tracking: enabled for preparation and implementation by existing root AGENTS policy. Standard reporting; Minimal and Explicit available.
 
 ## Initialization evidence
@@ -23,16 +23,15 @@ Default manual provenance setup: seed 4066c4ebb9763db503faf9c928e6edea126e8799 a
 | Task | Evidence / decision |
 | --- | --- |
 | DOCS-001 | Completed in 4bcd3d228e84f295d86c72e29bb9c685cab49bc0, pushed with exact remote readback and confirmed cleanup. Issue #1 closed as completed and read back. Four root files preserved; provenance integrated and published; task/control/handoff initialized atomically. |
-| DOCS-002 | PROJECT proposal SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7; no human acceptance. Scope coverage, document boundary, requirement/proposal separation and local README links reviewed. No formal PROJECT QC report is required. DOCS-002 and issue #2 remain incomplete. |
-| DOCS-003–008 | Not authored; eligible only after accepted PROJECT and preceding stages/QC. |
+| DOCS-002 | PROJECT.md SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7. Human approval on 2026-10-24 accepts proposal 30fa9dc and its choice table; PROJECT bytes retained unchanged at SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7. Scope and link review retained; later document stages use requested autodoc preapproval. |
 | DOCS-009 | Outside current autodoc boundary; remains incomplete and issue open. |
 
-## Proposed product decisions
+## Accepted product decisions
 
-PROJECT's proposed-choice table is the current reviewable decision set, including TypeScript/Canvas/static delivery; ghost straddling rule; timer reset behavior; disabled Hold while penetrating; penetrator landing/activation safety; live setting timing; invalid/duplicate configuration handling; defaults, keys and browser coverage. These are agent recommendations awaiting human acceptance, not claims that the initiating request supplied them. Detailed scoring, speed, spawn/top-out and input-repeat contracts may be specified within the accepted scope.
+PROJECT's proposed-choice table is the current reviewable decision set, including TypeScript/Canvas/static delivery; ghost straddling rule; timer reset behavior; disabled Hold while penetrating; penetrator landing/activation safety; live setting timing; invalid/duplicate configuration handling; defaults, keys and browser coverage. The user accepted these agent recommendations with PROJECT approval; their origin remains distinct from the initiating request. Detailed scoring, speed, spawn/top-out and input-repeat contracts may be specified within the accepted scope.
 
-Proposed release policy: baseline 0.1.0, minor increases for capability phases, patches for fixes and 1.0.0 at verified full target. No documentation release or implementation range is selected.
+Accepted release policy: baseline 0.1.0, minor increases for capability phases, patches for fixes and 1.0.0 at verified full target. No documentation release or implementation range is selected.
 
 ## Pending transitions
 
-Publish/read back this PROJECT proposal and obtain human PROJECT approval, including its proposed gameplay choices. Hold ARCHITECTURE and dependent work. Autodoc then covers later document checkpoints through DOCS-008, subject to required QC and publication. DOCS-009, package QC/integration and implementation remain outside the present stop. The documentation milestone and issues #2–#9 remain open.
+DOCS-002 completion checkpoint requires push/readback, then issue #2 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-003 under autodoc preapproval; no implementation or release execution.
