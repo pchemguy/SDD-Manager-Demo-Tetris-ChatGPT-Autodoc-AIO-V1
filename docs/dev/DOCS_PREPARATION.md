@@ -25,6 +25,7 @@ Default manual provenance setup: seed 4066c4ebb9763db503faf9c928e6edea126e8799 a
 | DOCS-001 | Completed in 4bcd3d228e84f295d86c72e29bb9c685cab49bc0, pushed with exact remote readback and confirmed cleanup. Issue #1 closed as completed and read back. Four root files preserved; provenance integrated and published; task/control/handoff initialized atomically. |
 | DOCS-002 | PROJECT.md SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7. Human approval on 2026-10-24 accepts proposal 30fa9dc and its choice table; PROJECT bytes retained unchanged at SHA-256 4546581d3e37fc853b5d858ee22492de8f17d1a36959dbb5d613b256fdc2f1e7. Scope and link review retained; later document stages use requested autodoc preapproval. |
 | DOCS-003 | ARCHITECTURE.md SHA-256 97f1b1df98b1e2015bd0b78924ec3199483502f405d7ca37eb01ec500fe7eabf. Autodoc preapproval applies. Reviewed accepted PROJECT scope, single state ownership, acyclic dependencies, shared ghost/drop landing, configuration failure isolation and clock lifecycle. No unresolved architectural decisions; DECOMPOSITION forward link is scheduled for the next authorized stage. |
+| DOCS-004 | DECOMPOSITION.md SHA-256 6c8ed74b1e0bd1cbddf1d71c5dc6479d2f3cc29daca9127f97b5f7c8f0c16543. Autodoc preapproval applies. Reviewed all architecture blocks against eleven logical owners, immutable snapshots, input/time ordering, atomic lock transitions, captured settings, failure ownership and deterministic test seams. Architecture and decomposition links resolve; no cycles or unresolved ownership found. |
 | DOCS-009 | Outside current autodoc boundary; remains incomplete and issue open. |
 
 ## Accepted product decisions
@@ -35,4 +36,4 @@ Accepted release policy: baseline 0.1.0, minor increases for capability phases, 
 
 ## Pending transitions
 
-DOCS-003 completion checkpoint requires push/readback, then issue #3 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-004 under autodoc preapproval; no implementation or release execution.
+DOCS-004 completion checkpoint requires push/readback, then issue #4 evidence/closure/readback. Reconcile actual Git and provider state before replay. After verified closure continue with DOCS-005 under autodoc preapproval; no implementation or release execution.
